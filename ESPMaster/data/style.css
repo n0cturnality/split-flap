@@ -19,7 +19,7 @@ font-size: 1.4rem;
 
 .topnav {
 overflow: hidden;
-background-color: #0A1128;
+background-color: #f2a900;
 }
 
 body {
@@ -46,13 +46,13 @@ box-shadow: 2px 2px 12px 1px rgba(243,243,243,.5);
 .card-title {
 font-size: 1.2rem;
 font-weight: bold;
-color: #034078
+color: #4d4d4e
 }
 
 input[type=submit] {
 border: none;
 color: #FEFCFB;
-background-color: #034078;
+background-color: #4d4d4e;
 padding: 15px 15px;
 text-align: center;
 text-decoration: none;
@@ -65,7 +65,7 @@ transition-duration: 0.4s;
 }
 
 input[type=submit]:hover {
-background-color: #1282A2;
+background-color: #f2a900;
 }
 
 input[type=text], select {
@@ -96,7 +96,7 @@ font-size: 1.2rem;
 
 .value{
 font-size: 1.2rem;
-color: #1282A2;
+color: #4d4d4e;
 }
 
 .slider {
@@ -105,7 +105,7 @@ margin: 0 auto;
 width: 90%;
 height: 17px;
 border-radius: 10px;
-background: #FFD65C;
+background: #f2a900;
 outline: none;
 }
 
@@ -115,7 +115,7 @@ appearance: none;
 width: 25px;
 height: 25px;
 border-radius: 50%;
-background: #034078;
+background: #4d4d4e;
 cursor: pointer;
 }
 
@@ -123,7 +123,7 @@ cursor: pointer;
 width: 25px;
 height: 25px;
 border-radius: 50% ;
-background: #034078;
+background: #4d4d4e;
 cursor: pointer;
 }
 

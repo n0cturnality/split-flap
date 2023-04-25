@@ -49,6 +49,7 @@ int translateLettertoInt(char letterchar) {
       return i;
     }
   }
+  return 0; // return 0 to indicate an error
 }
 
 //write letter position and speed in rpm to single unit

@@ -55,6 +55,12 @@ function setSavedMode(mode) {
 	case "clock":
 		document.getElementById("modeclock").checked = true;
 		break;
+	case "price":
+		document.getElementById("modebitcoin").checked = true;
+		break;
+	case "height":
+		document.getElementById("modeheight").checked = true;
+		break;
 	}
 }
 

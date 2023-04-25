@@ -10,12 +10,12 @@
 	</head>
 	<body>
 		<div class="topnav">
-			<h1>SPLIT-FLAP</h1>
+			<h1>₿lock Clock&nbsp;</h1>
 		</div>
 		<div class="content">
 			<div class="card-grid">
 				<div class="card">
-					<form action="/" method="post" id="form">
+		  <form action="/" method="post" id="form">
 						<p class="card-title">General</p>
 						<p style= "font-size: 1.2rem;">Text Alignment</p>
 						<div class ="alignmentInputs">
@@ -43,29 +43,47 @@
 						</div>
 					</div>
 					<div class="card">
-						<p class="card-title">Text</p>       
+					  <p class="card-title">Bitcoin</p>
+					  <div class = "devicemode">
+					    <input type="radio" id="modebitcoin" name="devicemode" value="price" />
+					    <label for="modebitcoin">Price (USD)</label>
+						  
+				      </div>
+						<div class = "devicemode">
+					    <input type="radio" id="modeheight" name="devicemode" value="height" />
+					    <label for="modeheight">Block Height</label>
+						  
+				      </div>
+						<p><input type="submit" value="Submit" /></p>
+						
+		    </div>
+					<div class="card">
+					                        
+					  <p class="card-title">Date & Time</p>
+					  <div class = "devicemode">
+					    <input type="radio" id="modedate" name="devicemode" value="date" />
+					    <label for="modedate">Today's Date</label>
+						</div>                       
+					    <div class = "devicemode">
+					      <input type="radio" id="modeclock" name="devicemode" value="clock" />
+					      <label for="modeclock">Current Time</label>
+					      
+				        </div>
+						<p><input type="submit" value="Submit" /></p>
+				      </div>
+					
+		    
+					<div class="card">
+					  <p class="card-title">Text</p>       
 						<input type="radio" id="modetext" name="devicemode" value="text" />
 						<label for="modetext">Text Mode</label> 
 						<p>
-							<label for="input1">Input 1</label> 
+							<label for="input1">Input</label> 
 							<input type="text" id="input1" name="input1" autocomplete="off" maxlength="10" /> 
 							<input type="submit" value="Submit" />
 						</p>
 					</div>
-					<div class="card">
-						<p class="card-title">Date</p>
-						<div class = "devicemode">
-							<input type="radio" id="modedate" name="devicemode" value="date" />
-							<label for="modedate">Date Mode</label> 
-						</div>
-					</div>
-					<div class="card">
-						<p class="card-title">Clock</p>
-						<div class = "devicemode">
-							<input type="radio" id="modeclock" name="devicemode" value="clock" />
-							<label for="modeclock">Clock Mode</label> 
-						</div>
-						<p/>
+<p/>
 					</div>	
 				</form>		
 			</div>

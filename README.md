@@ -1,6 +1,7 @@
-# Split-Flap
-<img src="https://media.prusaprinters.org/media/prints/69464/images/757807_e77ddd2d-72e7-44ac-a8ae-af2382483195/thumbs/inside/1920x1440/jpg/titlepic.webp" alt="Image of Split-Flap" width="600"/>
-3D-files here: https://www.prusaprinters.org/prints/69464-split-flap-display
+# Split-Flap with Bitcoin stats functionality (Block Clock)
+This is a fork of David Kingsman's awesome Split Flap display project shown here: https://www.prusaprinters.org/prints/69464-split-flap-display
+
+I have added functions to display Bitcoin's current USD exchange rate through Coindesk's API and the current block height through mempool.space's API, and modified the web UI to accomodate them.
 
 ## General
 The display's electronics use one esp01 as the master and up to 16 arduinos as slaves. The esp handles the webinterface and communicates to the units via I2C. Each unit is resposible for setting the zero position of the drum on startup and displaying any letter the master send its way.

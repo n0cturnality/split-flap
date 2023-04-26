@@ -87,6 +87,7 @@ void setup() {
   //deactivate I2C if debugging the ESP, otherwise serial does not work
 #ifndef serial
   Wire.begin(1, 3); //For ESP01 only
+//Wire.begin(4, 5); //For D1 Mini only
 #endif
   //Wire.begin(D1, D2); //For NodeMCU testing only SDA=D1 and SCL=D2
 

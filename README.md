@@ -1,4 +1,4 @@
-# Split-Flap with Bitcoin stats functionality (Block Clock)
+# Split-Flap Display with Bitcoin stats functionality (Block Clock)
 This is a fork of David Kingsman's awesome Split Flap display project shown here: https://www.prusaprinters.org/prints/69464-split-flap-display
 
 I have added functions to display Bitcoin's current USD exchange rate through Coindesk's API and the current block height through mempool.space's API, and modified the web UI to accomodate them.
